@@ -1,0 +1,10 @@
+name 'puppet-module-ecloud'
+version '0.1.0'
+source 'http://gerritforge.lmera.ericsson.se/gerrit/p/puppet-module-ecloud.git'
+author 'emahags'
+license 'Apache License, Version 2.0'
+summary 'Manage Electric Accelerator'
+description 'Manages Electric Accelerator, a build accelerator'
+project_page 'https://eforge.ericsson.se/sf/scm/do/viewRepositorySource/projects.itte_li_puppet/scm.Puppet_module_ecloud'
+
+dependency 'puppetlabs/stdlib', '>= 3.2.0'
