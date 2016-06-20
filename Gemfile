@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 if ENV['PUPPET_GEM_VERSION']
   gem 'puppet', ENV['PUPPET_GEM_VERSION'], :require => false
