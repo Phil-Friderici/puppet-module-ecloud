@@ -5,7 +5,7 @@ describe 'ecloud' do
     it 'should fail' do
       expect {
         should contain_class('ecloud')
-      }.to raise_error(Puppet::Error,/^ecloud::cmhost needs to be defined./)
+      }.to raise_error(Puppet::Error,/ecloud::cmhost needs to be defined/)
     end
   end
 
@@ -110,7 +110,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -127,7 +127,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -144,7 +144,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^false is not a string.  It looks to be a FalseClass/)
+        }.to raise_error(Puppet::Error,/false is not a string\.  It looks to be a FalseClass/)
       end
     end
 
@@ -161,7 +161,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^ecloud::service_ensure may be either 'running' or 'stopped' and is set to <false>./)
+        }.to raise_error(Puppet::Error,/ecloud::service_ensure may be either 'running' or 'stopped' and is set to <false>/)
       end
     end
 
@@ -178,7 +178,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^"yes" is not a boolean.  It looks to be a String/)
+        }.to raise_error(Puppet::Error,/"yes" is not a boolean\.  It looks to be a String/)
       end
     end
 
@@ -195,7 +195,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^"yes" is not an absolute path./)
+        }.to raise_error(Puppet::Error,/"yes" is not an absolute path/)
       end
     end
 
@@ -212,7 +212,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^ecloud::sysconfig_ensure may be either 'present', 'absent', 'file' or 'link' and is set to <yes>./)
+        }.to raise_error(Puppet::Error,/ecloud::sysconfig_ensure may be either 'present', 'absent', 'file' or 'link' and is set to <yes>/)
       end
     end
 
@@ -229,7 +229,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -246,7 +246,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -263,7 +263,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -279,7 +279,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -296,7 +296,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -313,7 +313,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -330,7 +330,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^ecloud::log_remove may be either 'Yes' or 'No' and is set to <true>./)
+        }.to raise_error(Puppet::Error,/ecloud::log_remove may be either 'Yes' or 'No' and is set to <true>/)
       end
     end
 
@@ -347,7 +347,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^ecloud::lsf_host may be either 'y' or 'n' and is set to <true>./)
+        }.to raise_error(Puppet::Error,/ecloud::lsf_host may be either 'y' or 'n' and is set to <true>/)
       end
     end
 
@@ -364,7 +364,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -381,7 +381,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^true is not a string.  It looks to be a TrueClass/)
+        }.to raise_error(Puppet::Error,/true is not a string\.  It looks to be a TrueClass/)
       end
     end
 
@@ -398,7 +398,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^ecloud::reboot may be either 'Yes' or 'No' and is set to <true>./)
+        }.to raise_error(Puppet::Error,/ecloud::reboot may be either 'Yes' or 'No' and is set to <true>/)
       end
     end
 
@@ -415,7 +415,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^ecloud::secure_console may be either 'y' or 'n' and is set to <true>./)
+        }.to raise_error(Puppet::Error,/ecloud::secure_console may be either 'y' or 'n' and is set to <true>/)
       end
     end
 
@@ -432,7 +432,7 @@ describe 'ecloud' do
       it 'should fail' do
         expect {
           should contain_class('ecloud')
-        }.to raise_error(Puppet::Error,/^"yes" is not an absolute path./)
+        }.to raise_error(Puppet::Error,/"yes" is not an absolute path/)
       end
     end
   end
