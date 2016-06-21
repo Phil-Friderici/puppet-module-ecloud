@@ -1,0 +1,37 @@
+{
+  "name":         "emahags-ecloud",
+  "version":      "0.1.1",
+  "author":       "emahags",
+  "summary":      "Manage Electric Accelerator",
+  "description":  "Manage Electric Accelerator, a build accelerator",
+  "license":      "Apache-2.0",
+  "source":       "https://github.com/emahags/puppet-module-ecloud.git",
+  "project_page": "https://github.com/emahags/puppet-module-ecloud",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.2.0 < 5.0.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0 < 5.0.0"
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.6.0 < 6.0.0"}
+  ]
+}
