@@ -1,12 +1,13 @@
 {
-  "name":         "emahags-ecloud",
+  "name":         "kodguru-ecloud",
   "version":      "0.1.1",
-  "author":       "emahags",
+  "author":       "kodguru",
   "summary":      "Manage Electric Accelerator",
   "description":  "Manage Electric Accelerator, a build accelerator",
   "license":      "Apache-2.0",
-  "source":       "https://github.com/emahags/puppet-module-ecloud.git",
-  "project_page": "https://github.com/emahags/puppet-module-ecloud",
+  "source":       "https://github.com/kodguru/puppet-module-ecloud.git",
+  "project_page": "https://github.com/kodguru/puppet-module-ecloud",
+  "issues_url":   "https://github.com/kodguru/puppet-module-ecloud/issues",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
