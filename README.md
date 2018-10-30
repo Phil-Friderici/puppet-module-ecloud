@@ -7,7 +7,9 @@ Manage Electric Accelerator
 
 # Compatibility
 ---------------
-This module is built for use with Puppet v3 with Ruby versions 1.8.7 on the following OS families.
+This module has been tested to work on the following systems with the latest
+Puppet v3, v3 with future parser, v4, v5 and v6. See `.travis.yml` for the
+exact matrix of supported Puppet and ruby versions.
 
 * EL 6
 

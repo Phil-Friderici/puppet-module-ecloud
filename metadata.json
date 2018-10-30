@@ -1,6 +1,6 @@
 {
   "name":         "kodguru-ecloud",
-  "version":      "0.1.1",
+  "version":      "0.1.2",
   "author":       "kodguru",
   "summary":      "Manage Electric Accelerator",
   "description":  "Manage Electric Accelerator, a build accelerator",
@@ -25,7 +25,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 3.0.0 < 5.0.0"
+      "version_requirement": ">= 3.0.0 < 7.0.0"
     }
   ],
   "dependencies": [
